@@ -8,6 +8,10 @@ from datetime import datetime, timedelta
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+# Install necessary modules
+pip install seaborn
+pip install matplotlib
+
 # Setting Random Seed
 random.seed(47)
 
