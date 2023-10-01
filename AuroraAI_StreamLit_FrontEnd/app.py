@@ -5,12 +5,21 @@ import pandas as pd
 import numpy as np
 import random
 from datetime import datetime, timedelta
-import seaborn as sns
-import matplotlib.pyplot as plt
+#import seaborn as sns
+#import matplotlib.pyplot as plt
 
-# Install necessary modules
-!pip install seaborn
-!pip install matplotlib
+def install_and_import(package):
+    import importlib
+    try:
+        importlib.import_module(package)
+    except ImportError:
+        import pip
+        pip.main(['install', package])
+    finally:
+        globals()[package] = importlib.import_module(package)
+
+install_and_import(seaborn)
+install_and_import(matplotlib)
 
 # Setting Random Seed
 random.seed(47)
