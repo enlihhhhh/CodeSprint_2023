@@ -9,8 +9,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Install necessary modules
-pip install seaborn
-pip install matplotlib
+pip3 install seaborn
+pip3 install matplotlib
 
 # Setting Random Seed
 random.seed(47)
