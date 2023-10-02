@@ -314,7 +314,7 @@ def display_example4():
     st.sidebar.title("Visualization Options")
 
     st.title("Projected Demand of Containers (After using Deep Learning Model)")
-    demand_df = pd.read_csv("demand_data.csv")
+    demand_df = pd.read_csv("AuroraAI_Frontend/demand_data.csv")
 
     st.dataframe(demand_df)
     st.write("Optimal number of containers to unload (TEUs) per month : 4578.0")
@@ -330,11 +330,11 @@ def display_example4():
         month_1 = st.text_input("Enter the Month(e.g., 1-12):")
         day = st.text_input("Enter the Day (e.g., 1-31):")
         if (day == "1"):
-            allocated_df = pd.read_csv("1aug_allocated_containers.csv")
+            allocated_df = pd.read_csv("AuroraAI_Frontend/1aug_allocated_containers.csv")
             st.dataframe(allocated_df)
             st.write("This is the result for the 1st of August")
         elif (day == "10"):
-            allocated_df = pd.read_csv("10aug_allocated_containers.csv")
+            allocated_df = pd.read_csv("AuroraAI_Frontend/10aug_allocated_containers.csv")
             st.dataframe(allocated_df)
             st.write("This is the result for the 10th of August")
         
@@ -345,7 +345,7 @@ def display_example4():
         price = st.text_input("Enter the competitor prices:")
         month_2 = st.text_input("Enter the month (e.g., 1-12): ")
         if (month_2 == "8"):
-            allocated_df = pd.read_csv("aug_allocated_containers.csv")
+            allocated_df = pd.read_csv("AuroraAI_Frontend/aug_allocated_containers.csv")
             st.dataframe(allocated_df)
             st.write("This is the result for the whole month of August")
   
@@ -407,7 +407,7 @@ def main():
         st.write("### Latest News from PSA Singapore")
         # First News Snippet
         with st.expander("PSA Innovates with OptETruck, a Digital Solution for Singapore’s Haulier Sector to Achieve Fleet Optimisation and a Greener Footprint - July 26, 2023"):
-            st.image("news1.jpeg", use_column_width=True)
+            st.image("AuroraAI_Frontend/news1.jpeg", use_column_width=True)
             st.write("""
             As part of efforts to further digitalise and decarbonise the container trucking industry, PSA Singapore (PSA), with the support of Enterprise Singapore, has developed OptETruck, a proprietary cloud-based transport management solution which uses artificial intelligence (AI) to facilitate smarter trip planning and eliminate operational inefficiencies for the haulier community in Singapore. It will help hauliers improve asset utilisation, reduce carbon emissions, as well as optimise operating costs.
 
@@ -426,7 +426,7 @@ def main():
         
         # Second News Snippet
         with st.expander("PSA Jurong Island Terminal and JTC Celebrate 130K TEU Record Achievement in Push For a More Sustainable, Efficient and Resilient Supply Chain Ecosystem - March 14, 2023"):
-            st.image("news2.jpg", use_column_width=True)
+            st.image("AuroraAI_Frontend/news2.jpg", use_column_width=True)
             st.write("""
             PSA Jurong Island Terminal achieved a record-breaking container throughput of more than 130,000 twenty-foot equivalent units (TEUs) in the year ending 31 December 2022. This is its highest volume since the terminal began operations in 2012 and a 30% increase since 2021.
 
@@ -445,7 +445,7 @@ def main():
         
         # Third News Snippet
         with st.expander("PSA container throughput performance for 2022 - January 16, 2023"):
-            st.image("news3.jpg", use_column_width=True)
+            st.image("AuroraAI_Frontend/news3.jpg", use_column_width=True)
             st.write("""
             PSA International Pte Ltd (PSA) handled container volumes of 90.9 million Twenty-foot Equivalent Units (TEUs) at its port projects around the world for the year ending 31 December 2022. The Group’s volume decreased by 0.7% over 2021, with flagship PSA Singapore contributing 37.0 million TEUs (-0.7%) and PSA terminals outside Singapore handling 53.9 million TEUs (-0.7%).
 
