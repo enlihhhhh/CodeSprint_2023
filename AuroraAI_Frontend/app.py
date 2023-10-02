@@ -23,8 +23,8 @@ def check_hashes(password, hashed_text):
 db = {"PSA": make_hashes("Admin")}
 
 #Datasets
-df_traffic_control = pd.read_csv('df_traffic_control.csv')
-mockup_dataset = pd.read_csv('mockup_dataset.csv')
+df_traffic_control = pd.read_csv('AuroraAI_Frontend/df_traffic_control.csv')
+mockup_dataset = pd.read_csv('AuroraAI_Frontend/mockup_dataset.csv')
 
 # Initialize session state
 if 'is_logged_in' not in st.session_state:
