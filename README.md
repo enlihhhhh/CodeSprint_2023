@@ -2,7 +2,9 @@
 <hr style="border:2px solid gray"> 
 
 ## ℹ Background and Introduction
-> *"Develop AI models or IoT solutions that solve industrial or social problems in the new stage of society development. The Smart Nation is an initiative by the Government of Singapore to harness from info-comm technologies, networks and big data to create tech-enabled solutions."* 
+> *"PSA operates the world’s largest transhipment hub in Singapore, facilitating cargo movement across the world all year round. This has enabled complex trade flows in the supply chain, which drive our economies and sustain the pulse of our societies.
+
+However, in recent years, the supply chain and logistics industry face disruptions from geopolitical tensions, inflation, and pandemics. This, coupled with a growing concern on carbon emissions from transporting cargo, demand solutions that can increase the resilience, agility, and sustainability of supply chains around the world. Being a global leader in the port and logistics industry, we envision to create an Internet of Logistics for the industry, enabling collaboration among the stakeholders in both the port and logistics ecosystems, by leveraging on data and smart technologies such as Artificial Intelligence (AI)."* 
 
 ## ❓ Problem Statement
 > 
@@ -42,6 +44,6 @@
 
 
 ## ✍🏻 Contributors
-* Tomoki Teng Zhi Hui 
-* Wang Shan An Davis 
+* Tomoki Teng Zhi Hui [@sivadboon](https://github.com/sivadboon)
+* Wang Shan An Davis [@TomokiTeng](https://github.com/TomokiTeng)
 * Lye En Lih [@enlihhhhh](https://github.com/enlihhhhh)
