@@ -42,7 +42,7 @@ def display_login():
     st.markdown(hide_st_style, unsafe_allow_html=True)
     st.markdown("<h1 style='text-align: center; color: Black;'>Login Page </h2>", unsafe_allow_html=True)
     # st.title("Login Page")
-    st.image("logo.png", use_column_width='auto')
+    st.image("AuroraAI_Frontend/logo.png", use_column_width='auto')
     st.empty()
     with st.form(key='login_form'):
         username = st.text_input("Username")
