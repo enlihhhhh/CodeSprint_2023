@@ -18,8 +18,6 @@
 3. Alternatively, access the server app using the following URL, [AuroraAI Application](https://codesprint2023.streamlit.app/)
 
 ## 🧑🏻‍💻 Technologies
-* [![Next][Next.js]][https://nextjs.org/]
-
 * Frontend: 
     - StreamLit
 * Backend for our Machine-Learning Model: 
